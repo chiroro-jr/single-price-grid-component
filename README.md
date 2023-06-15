@@ -4,15 +4,15 @@ This is a solution to the [Single price grid component challenge on Frontend Men
 
 ## Table of contents
 
-- [Frontend Mentor - Single price grid component solution](#frontend-mentor---single-price-grid-component-solution)
-  - [Table of contents](#table-of-contents)
-  - [Overview](#overview)
-    - [The challenge](#the-challenge)
-    - [Screenshot](#screenshot)
-    - [Links](#links)
-  - [My process](#my-process)
-    - [Built with](#built-with)
-  - [Author](#author)
+-   [Frontend Mentor - Single price grid component solution](#frontend-mentor---single-price-grid-component-solution)
+    -   [Table of contents](#table-of-contents)
+    -   [Overview](#overview)
+        -   [The challenge](#the-challenge)
+        -   [Screenshot](#screenshot)
+        -   [Links](#links)
+    -   [My process](#my-process)
+        -   [Built with](#built-with)
+    -   [Author](#author)
 
 ## Overview
 
@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [Add solution URL here](https://your-solution-url.com)
--   Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+-   Solution URL: [https://www.frontendmentor.io/solutions/single-price-grid-component-using-html-tailwindcss-and-vite-CDN_ghOfID](https://www.frontendmentor.io/solutions/single-price-grid-component-using-html-tailwindcss-and-vite-CDN_ghOfID)
+-   Live Site URL: [https://single-price-grid-component-ndc.netlify.app/](https://single-price-grid-component-ndc.netlify.app/)
 
 ## My process
 

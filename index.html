@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Single Price Grid Component</title>
+</head>
+
+<body class="font-karla">
+  <main class="flex flex-col justify-center items-center min-h-screen bg-light-gray px-6">
+    <section class="rounded-lg overflow-hidden md:grid md:grid-cols-2 md:grid-rows-[auto 1fr] max-w-[620px]">
+      <div class="bg-white p-6 md:p-8 flex flex-col gap-3 md:col-span-2">
+        <h1 class="text-cyan font-bold text-[1.1rem] md:text-xl">Join our community</h1>
+        <h2 class="text-bright-yellow text-sm md:text-base font-bold md:-mb-2">30-day, hassle-free money back guarantee
+        </h2>
+        <p class="text-grayish-blue/80 text-[.8rem] md:text-[15px]">Gain access to our full library of tutorials along
+          with expert code
+          reviews.
+          Perfect for any developers who are serious about honing their skills.</p>
+      </div>
+      <div class="bg-cyan p-6 md:p-8 gap-3 md:gap-0 flex flex-col justify-between md:col-span-1">
+        <h2 class="text-white font-bold text-[1.1rem]">Monthly Subscription</h2>
+        <div>
+          <p class="flex items-center gap-1.5">
+            <span class="text-white font-bold text-3xl">&dollar;29</span>
+            <span class="text-light-gray/50 text-sm">per month</span>
+          </p>
+          <p class="text-light-gray/90 tracking-wide text-[.8rem] md:text-sm">Full access for less than &dollar;1 a
+            day</p>
+        </div>
+        <div class="flex pt-2">
+          <a href="#"
+            class="flex-1 text-center bg-bright-yellow hover:bg-white hover:text-cyan hover:-translate-y-0.5 hover:shadow-lg transition-all duration-200 text-white py-3 rounded-md text-sm font-bold shadow-xl shadow-black/10">Sign
+            Up</a>
+        </div>
+      </div>
+      <div class="bg-cyan/80 p-6 md:p-8 space-y-3 md:col-span-1">
+        <h2 class="text-white font-bold text-[1.1rem]">Why Us</h2>
+        <ul class="text-light-gray/90 text-[.8rem]">
+          <li>Tutorials by industry experts</li>
+          <li>Peer &amp; expert code review</li>
+          <li>Coding exercises</li>
+          <li>Access to our GitHub repos</li>
+          <li>Community forum</li>
+          <li>Flashcard decks</li>
+          <li>New videos every week</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+
+  <footer class="fixed bottom-0 right-0 left-0 p-2 text-center text-sm text-black/40">
+    <p class="attribution">
+      Challenge by <a class="text-cyan" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend
+        Mentor</a>.
+      Coded by <a href="https://www.frontendmentor.io/profile/chiroro-jr" class="text-cyan">Nyasha D. Chiroro</a>.
+    </p>
+  </footer>
+</body>
+
+</html>
